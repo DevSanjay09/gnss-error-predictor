@@ -1,0 +1,38 @@
+.uf-root{font-family:Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; color:#d8dbe2; padding:18px; box-sizing:border-box}
+.uf-card{max-width:1100px;margin:20px auto;padding:20px;background:#fff;border-radius:12px;box-shadow:0 8px 20px rgba(2,6,23,0.08);border:1px solid rgba(15,23,42,0.04)}
+.uf-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}
+.uf-header h2{margin:0;font-size:20px;color:#0b1220}
+.uf-sub{margin:4px 0 0;color:#475569;font-size:13px}
+.uf-actions{display:flex;gap:8px;align-items:center}
+.uf-badge{display:inline-block;padding:6px 10px;border-radius:999px;color:#fff;font-weight:600;font-size:12px}
+.uf-dropzone{border:2px dashed #e6eef8;border-radius:10px;padding:18px;display:flex;align-items:center;justify-content:center;min-height:110px;cursor:pointer;transition:all .18s ease;background:linear-gradient(180deg,#ffffff, #fbfdff)}
+.uf-dropzone.uf-has-file{border-style:solid;background:linear-gradient(180deg,#fbfcff,#ffffff)}
+.uf-dropzone input[type=file]{position:absolute;opacity:0;pointer-events:auto;cursor:pointer;width:100%;height:100%}
+.uf-drag{display:flex;flex-direction:column;align-items:center;gap:6px;color:#0b1220}
+.uf-drag strong{font-size:15px}
+.uf-fileinfo{display:flex;justify-content:space-between;align-items:center;width:100%}
+.uf-filename{font-weight:700;color:#0b1220}
+.uf-filesize{font-size:12px;color:#64748b}
+.uf-fileactions{display:flex;gap:8px}
+.uf-btn{border:0;padding:8px 12px;border-radius:8px;font-weight:600;cursor:pointer}
+.uf-btn-light{background:#f1f5f9;color:#0b1220;border:1px solid #e2e8f0}
+.uf-btn-primary{background:#2563eb;color:#fff}
+.uf-row{display:flex;gap:14px;margin-top:16px}
+.uf-column{flex:1;min-width:0}
+.uf-preview{flex:1}
+.uf-result{flex:1.1}
+.uf-panel{background:#f8fafc;padding:12px;border-radius:10px;border:1px solid rgba(15,23,42,0.03)}
+.uf-panel-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.uf-link{background:none;border:0;color:#2563eb;cursor:pointer;font-weight:600;padding:4px}
+.uf-error{background:#fff1f2;color:#9f1239;padding:8px;border-radius:8px;border:1px solid rgba(220,38,38,0.08);margin-bottom:8px}
+.uf-table-wrap{overflow:auto;max-height:280px;padding-right:6px}
+.uf-table{width:100%;border-collapse:collapse;font-size:13px}
+.uf-table th{position:sticky;top:0;background:#f1f5f9;text-align:left;padding:8px;border-bottom:1px solid rgba(15,23,42,0.04);font-weight:700}
+.uf-table td{padding:8px;border-bottom:1px solid rgba(15,23,42,0.03);color:#0b1220}
+.uf-empty{color:#94a3b8;padding:18px;text-align:center}
+.uf-loading{display:flex;align-items:center;gap:10px;padding:12px}
+.uf-spinner{width:18px;height:18px;border-radius:50%;border:3px solid rgba(37,99,235,0.16);border-top-color:#2563eb;animation:uf-spin .9s linear infinite}
+@keyframes uf-spin{to{transform:rotate(360deg)}}
+.uf-json{background:#0f172a;color:#f8fafc;padding:12px;border-radius:8px;overflow:auto;max-height:300px}
+@media (max-width:900px){.uf-row{flex-direction:column}.uf-card{padding:14px}}
+
